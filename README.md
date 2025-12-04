@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## 📝 Project Overview
-This project is a 2D computer graphics simulation developed for **CSE423: Computer Graphics** (Lab Assignment 1). It demonstrates the use of fundamental OpenGL primitives to construct a scene and implement 2D animation logic.
+This project is a 2D computer graphics simulation developed for **CSE423: Computer Graphics**. It demonstrates the use of fundamental OpenGL primitives to construct a scene and implement 2D animation logic.
 
 The simulation renders a house using `GL_TRIANGLES` and `GL_LINES` and features a continuous rainfall animation. Users can interact with the system to simulate wind (bending the rain) and change the time of day.The application allows users to interact with the environment in real-time, controlling wind direction to bend the rain and toggling between day and night modes.
 
@@ -60,7 +60,9 @@ python src/OpenGL-House-Rainfall-Simulation.py
 └── README.md                                 # Project documentation
 ```
 ## 👤 Author
-* **Md. Fuadur Rahman:**
+* **Md. Fuadur Rahman**
+* **Dept. of CSE**
+* **Brac University**
 
 
 ## 📄 License
