@@ -61,8 +61,8 @@ python src/OpenGL-House-Rainfall-Simulation.py
 ```
 ## 👤 Author
 * **Md. Fuadur Rahman**
-* **Dept. of CSE**
-* **Brac University**
+ **Dept. of CSE**
+ **Brac University**
 
 
 ## 📄 License
