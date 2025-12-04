@@ -42,7 +42,22 @@ This project requires **Python** and the **PyOpenGL** library. If you haven't in
 
 ```bash
 pip install PyOpenGL PyOpenGL_accelerate
+```
+### 2. Run the Simulation
+Once the dependencies are installed, you can run the project by executing the python file:
 
+```bash
+python src/OpenGL-House-Rainfall-Simulation.py
+```
+## 📂 File Structure
+
+```text
+.
+├── src/
+│   └── OpenGL-House-Rainfall-Simulation.py   # Main simulation source code
+├── requirements.txt                          # List of required Python libraries
+├── .gitignore                                # Config file to ignore unnecessary local files
+└── README.md                                 # Project documentation
 
 ## 👤 Author
 * **Md. Fuadur Rahman:**
