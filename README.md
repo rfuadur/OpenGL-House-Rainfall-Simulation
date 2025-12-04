@@ -9,21 +9,16 @@ This project is a 2D computer graphics simulation developed for **CSE423: Comput
 
 The simulation renders a house using `GL_TRIANGLES` and `GL_LINES` and features a continuous rainfall animation. Users can interact with the system to simulate wind (bending the rain) and change the time of day.The application allows users to interact with the environment in real-time, controlling wind direction to bend the rain and toggling between day and night modes.
 
+
+## 🎮 Controls
+The simulation uses the keyboard for interaction:
+
 | Key | Function | Description |
 | :--- | :--- | :--- |
 | **Right Arrow (→)** | Wind Right | Bends the rain angle to the right (Max 45°). |
 | **Left Arrow (←)** | Wind Left | Bends the rain angle to the left (Max -45°). |
 | **`d`** | Day Mode | Gradually lightens the sky/background. |
 | **`n`** | Night Mode | Gradually darkens the sky/background. |
-## 🎮 Controls
-The simulation uses the keyboard for interaction:
-
-| Key | Function | Description |
-| :--- | :--- | :--- |
-| **Right Arrow (→)** | Wind Right | [cite_start]Increases rain angle to the right (max 45°)[cite: 3]. |
-| **Left Arrow (←)** | Wind Left | [cite_start]Decreases rain angle to the left (max -45°)[cite: 3]. |
-| **`d`** | Day Mode | [cite_start]Gradually lightens the background color[cite: 3]. |
-| **`n`** | Night Mode | [cite_start]Gradually darkens the background color[cite: 3]. |
 
 ## 🛠️ Prerequisites
 You need **Python** installed along with the **PyOpenGL** library.
