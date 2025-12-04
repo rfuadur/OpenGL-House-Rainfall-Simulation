@@ -5,9 +5,9 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## 📝 Project Overview
-This project is a 2D computer graphics simulation developed for **CSE423: Computer Graphics** (Lab Assignment 1)[cite: 1]. [cite_start]It renders a scene featuring a house constructed from basic geometric primitives and simulates a continuous rainfall weather system[cite: 1].
+This project is a 2D computer graphics simulation developed for **CSE423: Computer Graphics** (Lab Assignment 1). It demonstrates the use of fundamental OpenGL primitives to construct a scene and implement 2D animation logic.
 
-The application allows users to interact with the environment in real-time, controlling wind direction to bend the rain and toggling between day and night modes.
+The simulation renders a house using `GL_TRIANGLES` and `GL_LINES` and features a continuous rainfall animation. Users can interact with the system to simulate wind (bending the rain) and change the time of day.The application allows users to interact with the environment in real-time, controlling wind direction to bend the rain and toggling between day and night modes.
 
 | Key | Function | Description |
 | :--- | :--- | :--- |
@@ -36,21 +36,13 @@ You need **Python** installed along with the **PyOpenGL** library.
     ```
 
 ## 🚀 How to Run
-1.  Clone this repository:
-    ```bash
-    git clone [https://github.com/rfuadur/OpenGL-House-Rainfall-Simulation.git](https://github.com/rfuadur/OpenGL-House-Rainfall-Simulation.git)
-2.  Navigate to the project directory:
-    ```bash
-    cd OpenGL-House-Rainfall-Simulation
-    ```
-3.  Run the simulation script:
-    ```bash
-    python OpenGL-House-Rainfall-Simulation.py
-    ```
 
-## 📂 File Structure
-* `OpenGL-House-Rainfall-Simulation.py`: The main source code containing the OpenGL rendering logic and event listeners[cite: 3].
-* `README.md`: Project documentation.
+### 1. Install Dependencies
+This project requires **Python** and the **PyOpenGL** library. If you haven't installed the library yet, run this command in your terminal or command prompt:
+
+```bash
+pip install PyOpenGL PyOpenGL_accelerate
+
 
 ## 👤 Author
 * **Md. Fuadur Rahman:**
