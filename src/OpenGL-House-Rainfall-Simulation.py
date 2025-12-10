@@ -187,7 +187,7 @@ def keyboard_listener(key, x, y):
     """Handle regular keyboard events"""
     global day_night_transition, background_color
     
-    # Task 1: Day/Night cycle
+    #Day/Night cycle
     if key == b'd':  # Day (lighter)
         day_night_transition = min(1.0, day_night_transition + 0.1)
         # Adjust background color
@@ -209,7 +209,7 @@ def special_key_listener(key, x, y):
     """Handle special keyboard events (arrow keys, etc.)"""
     global rain_angle
     
-    # Task 1: Left/Right arrows change rain angle
+    #Left/Right arrows change rain angle
     if key == GLUT_KEY_RIGHT:
         rain_angle = min(45, rain_angle + 5)  # Limit to 45 degrees
         print(f"Rain angle: {rain_angle}")
@@ -230,7 +230,7 @@ def init():
     # Set up orthographic projection
     glOrtho(-W_Width/2, W_Width/2, -W_Height/2, W_Height/2, -1.0, 1.0)
     
-    # Initialize rain drops for Task 1
+    # Initialize rain drops
     init_rain_drops()
 
 def timer_func(value):
