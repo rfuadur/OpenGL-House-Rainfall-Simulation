@@ -4,7 +4,6 @@ from OpenGL.GLU import *
 import math
 import random
 
-#Task 1 start
 # Window dimensions
 W_Width, W_Height = 500, 500
 
